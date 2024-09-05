@@ -1,0 +1,108 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.card {
+    background: #1c1c1c;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    color: #ffffff;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+    width: 70%;
+    outline: none;
+    margin-right: 10px;
+    font-size: 16px;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.search button {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.search button img {
+    width: 20px;
+    height: 20px;
+}
+
+.weather {
+    margin-top: 20px;
+}
+
+.weather img.weathericon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    filter: invert(1); /* Inverts the icon color to white for the dark theme */
+}
+
+.temp {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.city {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.details .col {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.details .col img {
+    width: 30px;
+    height: 30px;
+    filter: invert(1); /* Inverts the icons to white */
+}
+
+.details .col p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.humidity, .wind {
+    font-weight: bold;
+}
